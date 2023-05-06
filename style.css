@@ -8,7 +8,7 @@ body{
     background: #222;
 }
 .card{
-    width: 90%;
+    width: 100%;
     max-width: 470px;
     background: linear-gradient(135deg,#00feba,#5b548a);
     color: #fff;
@@ -35,6 +35,11 @@ body{
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
+}
+@media(max-width:400px){
+    #searchbox{
+        width: 40px;
+    }
 }
 .search button{
     border: 0;
@@ -94,7 +99,19 @@ body{
     margin-top: 2px;
     font-size: 15px;
 }
+@media(max-width:420px){
+    .humidity1, .wind1,.humidity, .wind{
+         font-size: 13px;
+         justify-content: space-between;
+    }
+}
 
+@media(max-width:420px){
+    .col img{
+         width: 30px;
+         margin-right: 10px;
+    }
+}
 .whether{
     display: none;
 }
