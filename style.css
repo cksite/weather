@@ -30,6 +30,7 @@ body{
     background: #ebfffc;
     color: #555;
     padding: 10px 25px;
+    padding-bottom: 0;
     height: 60px;
     border-radius: 30px;
     flex: 1;
